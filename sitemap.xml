@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.recipeshub.com/index.html</loc>
+    <lastmod>2026-03-22</lastmod>
+    <priority>1.00</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.recipeshub.com/recipes.html</loc>
+    <lastmod>2026-03-22</lastmod>
+    <priority>0.80</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.recipeshub.com/favorites.html</loc>
+    <lastmod>2026-03-22</lastmod>
+    <priority>0.50</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.recipeshub.com/contact.html</loc>
+    <lastmod>2026-03-22</lastmod>
+    <priority>0.50</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.recipeshub.com/author.html</loc>
+    <lastmod>2026-03-22</lastmod>
+    <priority>0.30</priority>
+  </url>
+</urlset>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us | RecipesHub - Get in Touch</title>
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+        <meta name="description" content="Have a question about a recipe or want to partner with us? Contact the RecipesHub team today. We're here to help you with your culinary journey."/>
+        <meta name="keywords" content="contact RecipesHub, recipe support, cooking questions, culinary partnership, food blog contact"/>
+        <meta name="author" content="Nina Nikolić"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    </head>
+    <body>
+        <nav></nav>
+
+        <main>
+            <header class="heading">
+                <h1>Contact Us</h1>
+                <h2>Have a question or want to share a recipe with us?</h2>
+            </header>
+
+            <div class="contactWrapper">
+                <section class="contactFormSection formCard">
+                    <form action="#" method="POST">
+                        <div class="formGroup">
+                            <label for="firstNmae">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" placeholder="e.g. John"/>
+                            <small class="errorMsg">First Name starts with capital letter, has min 3, max 16 characters</small>
+                        </div>
+                        <div class="formGroup">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" placeholder="e.g. Doe"/>
+                            <small class="errorMsg">Last Name starts with capital letter, has min 3, max 21 characters</small>
+                        </div>
+
+                        <div class="formGroup">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com"/>
+                            <small class="errorMsg">Eg. nina@gmail.com nina.nikolic.148.23@ict.edu.rs</small>
+                        </div>
+
+                        <div class="formGroup">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject">
+                                <option value="0">Choose...</option>
+                                <option value="1">Question about a recipe</option>
+                                <option value="2">Technical support</option>
+                                <option value="3">Partnership</option>
+                            </select>
+                            <small class="errorMsg">Choose Subject</small>
+                        </div>
+
+                        <div class="formGroup">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+                            <small class="errorMsg">Message is at least 10 words</small>
+                        </div>
+
+                        <button type="button" id="btnSubmit" name="btnSubmit">Send Message</button>
+                        <div id="formSuccess"></div>
+                    </form>
+                </section>
+
+                <aside class="contactInfo">
+                    <div class="infoItem formCard">
+                        <span class="material-symbols-outlined">location_on</span>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Knez Mihailova 1, Belgrade</p>
+                        </div>
+                    </div>
+                    <div class="infoItem formCard">
+                        <span class="material-symbols-outlined">call</span>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+381 11 123 4567</p>
+                        </div>
+                    </div>
+                    <div class="infoItem formCard">
+                        <span class="material-symbols-outlined">mail</span>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@recipes.com</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <footer>
+            
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+
+</html>

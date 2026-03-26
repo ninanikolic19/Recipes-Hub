@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 1,
+        "name" : "Easy",
+        "level" : 1,
+        "color" : "#469214"
+    },
+    {
+        "id" : 2,
+        "name" : "Medium",
+        "level" : 2,
+        "color" : "#e2e21f"
+    },
+    {
+        "id" : 3,
+        "name" : "Hard",
+        "level" : 3,
+        "color" : "#c51b1b"
+    }
+]

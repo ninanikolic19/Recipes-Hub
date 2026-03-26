@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Browse Recipes | RecipesHub - Find Your Perfect Meal</title>
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+        <meta name="description" content="Search and filter through our extensive collection of recipes. From breakfast to dinner, find meals based on difficulty, category, and preparation time."/>
+        <meta name="keywords" content="browse recipes, cooking ideas, dinner recipes, breakfast ideas, dessert recipes, recipe filters, easy cooking, RecipesHub catalog"/>
+        <meta name="author" content="Nina Nikolić"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"/>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    </head>
+    <body>
+        <nav></nav>
+
+        <main>
+
+            <div id="recipesHolder">
+
+                <div id="recipesContainer">
+                    <div class="heading">
+                        <h1>Recipes</h1>
+                    </div>
+
+                    <div id="recipes">
+
+                    </div>
+
+                    <div id="paginationContainer">
+                        <ul id="pagination">
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div id="filters">
+                    <form action="#" method="POST">
+                        <h2>Sorting And Filters:</h2>
+
+                        <input type="text" name="search" id="search" placeholder="Search Recipe Name"/>
+
+                        <div id="sorting">
+                            <select name="sortingDll" id="sortingDll">
+                                <option value="">Sort Recipes</option>
+                                <option value="name-asc">Title A-Z</option>
+                                <option value="name-desc">Title Z-A</option>
+                                <option value="hardest-first">Hardest First</option>
+                                <option value="easiest-first">Easies First</option>
+                                <option value="highest-rate">Highes Rate</option>
+                                <option value="latest">Latest</option>
+                                <option value="fastest">Fastest To Make</option>
+                            </select>
+                        </div>
+                        
+                        <div id="categories">
+                            <p>Pick Categories:</p>
+                            <div id="categoriesFilter">
+                            
+                            </div>
+                        </div>
+
+                        <div id="difficulty">
+                            <p>Difficulty Level:</p>
+                            <div id="difficultiesContainer">
+                            </div>
+                        </div>
+
+                        <div>
+                            <button type="button" name="btnReset" id="btnReset" class="btnRemove">Reset Filters</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+
+</html>
